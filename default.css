@@ -1,0 +1,149 @@
+body {
+	background: #f3f3f3;
+	font:bold 20px/1.5 'Helvetica Neue', Arial, 'Liberation Sans', FreeSans, sans-serif; /* 960.gs*/
+	color:#494949;
+}
+
+#wrap > div { overflow:hidden; }
+
+h1 { margin:0; padding:0; font-size:60px; }
+
+#nav {
+width:auto;
+float:center;
+background:#494949;
+color:#f3f3f3;
+padding:0.5%;
+overflow:hidden;
+border-radius:15px;
+-moz-border-radius:15px;
+-webkit-border-radius:15px;}
+
+#nav ul {
+list-style-type:none;
+margin:0;
+padding:0;}
+
+#nav ul li {display: inline;}
+
+#nav ul li a {color: #FFFFFF;}
+
+#nav ul li a:hover, #nav ul li .current {color: #d71f00;}
+
+#nav ul li a:hover ul {display: block;}
+/* ===== Data =====*/
+
+#data {
+	margin-bottom:40px;
+}
+#update {float: right;}
+#update a {color:#58585A; }
+#update a:hover {color: #00A0D2;}
+#update a:select {color: #d71f00;}
+
+#ulist table {
+	width:100%;
+	border-spacing:5px;
+	padding-top: 50px;
+}
+#ulist td {
+	padding:2px;
+	background:#efefef;
+	border-radius:3px;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+}
+#ulist td.name {width:25%;}
+
+#ulist td:not(:last-child) {
+	text-align:center;
+}
+#ulist img {
+	vertical-align:middle;
+}
+
+
+#space {
+	width: 48%;
+	margin-right: 2%;
+	float: left;
+	font-size: 12px;
+}
+
+#schedule {
+	width:44%;
+	float:left;
+	background:#494949;
+	color:#f3f3f3;
+	padding:3%;
+	overflow:hidden;
+	border-radius:15px;
+	-moz-border-radius:15px;
+	-webkit-border-radius:15px;
+}
+#schedule ul {
+	list-style-type:none;
+	margin:0;
+	padding:0;
+}
+#schedule li {
+	margin-bottom:5px;
+	width:1000px;
+}
+#schedule em {
+	font-style:normal;
+	background:#aa3636;
+	margin-right:10px;
+	display:inline-block;
+	width:70px;
+	padding:0 10px;
+	border-radius:15px;
+	-moz-border-radius:15px;
+	-webkit-border-radius:15px;
+}
+#schedule small {
+	font-size:20px;
+	color:#bababa;
+	font-style:italic;
+}
+
+#list table {
+	width:100%;
+	border-spacing:5px;
+}
+#list td {
+	padding:2px;
+	background:#efefef;
+	border-radius:3px;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+}
+#list td:not(:last-child) {
+	text-align:center;
+}
+#list img {
+	vertical-align:middle;
+}
+
+/* ===== twitter ===== */
+<!--#rss > div {
+	overflow:hidden;
+	font-size:20px;
+}
+#rss ul {
+	list-style-type:none;
+	width:5000px;
+	position:relative;
+}
+#rss li {
+	float:left;
+	margin-right:10px;
+}
+#rss img {
+	vertical-align:center;
+	margin-right:10px;
+	border:0;
+	height:20px;
+	width:20px;
+}-->
+
